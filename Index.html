@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Política de Privacidade — Imprimir PDFs (Gmail + Abas)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+    h1 { font-size: 1.6em; }
+    h2 { font-size: 1.2em; margin-top: 1.8em; }
+    footer { margin-top: 3em; font-size: 0.85em; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidade</h1>
+  <p><strong>Extensão:</strong> Imprimir PDFs (Gmail + Abas)<br>
+  <strong>Última atualização:</strong> 27 de agosto de 2026</p>
+
+  <h2>O que a extensão faz</h2>
+  <p>A extensão "Imprimir PDFs (Gmail + Abas)" permite que o usuário selecione e-mails no Gmail ou abas abertas contendo PDFs, agrupe os arquivos PDF encontrados em um único documento e abra automaticamente a tela de impressão do navegador.</p>
+
+  <h2>Quais dados a extensão acessa</h2>
+  <p>Para funcionar, a extensão solicita acesso de leitura à sua conta do Gmail (escopo <code>gmail.readonly</code>), usado exclusivamente para:</p>
+  <ul>
+    <li>Ler o conteúdo dos e-mails que o próprio usuário marcar manualmente na interface do Gmail;</li>
+    <li>Identificar e baixar os anexos em formato PDF desses e-mails;</li>
+    <li>Ler o conteúdo de abas do navegador que o usuário escolher processar, para identificar e extrair PDFs abertos nelas.</li>
+  </ul>
+  <p>A extensão não acessa e-mails, anexos ou abas que o usuário não tenha explicitamente selecionado através dos botões da própria extensão.</p>
+
+  <h2>Como os dados são usados</h2>
+  <p>Os PDFs identificados são combinados localmente, no próprio navegador do usuário, em um único arquivo temporário, com a única finalidade de exibir a tela de impressão. Nenhum processamento ocorre em servidores externos.</p>
+
+  <h2>Armazenamento e compartilhamento</h2>
+  <p>A extensão <strong>não armazena, não transmite e não compartilha</strong> o conteúdo de e-mails, anexos ou dados pessoais com terceiros, com o desenvolvedor ou com qualquer servidor externo. O arquivo PDF combinado é mantido apenas temporariamente na memória local do navegador (via <code>chrome.storage.local</code>) e é removido automaticamente logo após a tela de impressão ser aberta.</p>
+
+  <h2>Compartilhamento com terceiros</h2>
+  <p>Não há compartilhamento de dados com terceiros, redes de publicidade, ou serviços de analytics. A única comunicação externa realizada é diretamente entre o navegador do usuário e os servidores oficiais do Google (Gmail API), usando a própria conta autenticada do usuário.</p>
+
+  <h2>Permissões solicitadas</h2>
+  <ul>
+    <li><strong>identity:</strong> para autenticação OAuth com a conta Google do usuário.</li>
+    <li><strong>activeTab / tabs / scripting:</strong> para identificar PDFs nas abas abertas selecionadas pelo usuário.</li>
+    <li><strong>storage:</strong> para manter temporariamente o PDF combinado até a impressão ser aberta.</li>
+    <li><strong>gmail.readonly:</strong> para ler e-mails e anexos selecionados manualmente pelo usuário.</li>
+  </ul>
+
+  <h2>Direitos do usuário</h2>
+  <p>O usuário pode revogar o acesso da extensão à sua conta Google a qualquer momento em <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>, e desinstalar a extensão a qualquer momento pelo próprio navegador.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre esta política podem ser enviadas para: <strong>paulosergiox96@gmail.com</strong></p>
+
+  <footer>
+    Esta política pode ser atualizada periodicamente. Alterações relevantes serão refletidas na data no topo desta página.
+  </footer>
+</body>
+</html>
