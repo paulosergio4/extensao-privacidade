@@ -5,6 +5,80 @@
 <meta name="google-site-verification" content="T873T_UwbkwbiO6mOk4ymQmgSrhnWB7fewpXSyAYkCM" />
 <title>Imprimir Gmail e Abas — Extensão para Google Chrome</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Extensão gratuita para o Chrome que junta os PDFs dos e-mails selecionados no Gmail e das abas abertas em um único arquivo e abre a impressão.">
+<style>
+:root { --bg:#f6f8fc; --card:#fff; --text:#1f2937; --muted:#6b7280; --brand:#1a73e8; --brand2:#0b57d0; --accent:#e8f0fe; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:'Segoe UI',Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.65; }
+.hero { background:linear-gradient(135deg,#1a73e8 0%,#0b57d0 55%,#6c4ff0 100%); color:#fff; text-align:center; padding:72px 20px 96px; }
+.logo { width:84px; height:84px; margin:0 auto 20px; background:rgba(255,255,255,.18); border-radius:24px; display:flex; align-items:center; justify-content:center; font-size:44px; box-shadow:0 8px 24px rgba(0,0,0,.2); }
+.hero h1 { margin:0 0 12px; font-size:2.4em; letter-spacing:-.5px; }
+.hero p { max-width:620px; margin:0 auto; font-size:1.15em; opacity:.95; }
+.badges { margin-top:26px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+.badge { background:rgba(255,255,255,.18); padding:7px 16px; border-radius:999px; font-size:.9em; }
+main { max-width:900px; margin:-56px auto 0; padding:0 20px 40px; }
+.card { background:var(--card); border-radius:18px; padding:30px 32px; margin-bottom:22px; box-shadow:0 4px 18px rgba(16,24,40,.08); }
+.card h2 { margin:0 0 14px; font-size:1.35em; color:var(--brand2); }
+.steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; margin-top:6px; }
+.step { background:var(--accent); border-radius:14px; padding:20px; }
+.step .n { width:34px; height:34px; border-radius:50%; background:var(--brand); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; margin-bottom:10px; }
+.step p { margin:0; font-size:.96em; }
+.features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; }
+.feature { display:flex; gap:12px; align-items:flex-start; }
+.feature .ic { font-size:1.6em; }
+.feature p { margin:2px 0 0; color:var(--muted); font-size:.95em; }
+a { color:var(--brand); }
+.btn { display:inline-block; background:var(--brand); color:#fff !important; padding:11px 22px; border-radius:10px; text-decoration:none; font-weight:600; margin:4px 8px 4px 0; }
+.btn.alt { background:var(--accent); color:var(--brand2) !important; }
+footer { text-align:center; color:var(--muted); font-size:.9em; padding:10px 20px 40px; }
+@media (max-width:600px){ .hero h1{font-size:1.8em;} .card{padding:22px;} }
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="logo">🖨️</div>
+<h1>Imprimir Gmail e Abas</h1>
+<p>Selecione e-mails no Gmail, junte todos os PDFs em um único arquivo e imprima com um clique.</p>
+<div class="badges"><span class="badge">Gratuita</span><span class="badge">Roda no seu navegador</span><span class="badge">Nada é armazenado</span></div>
+</header>
+<main>
+<section class="card">
+<h2>Como funciona</h2>
+<div class="steps">
+<div class="step"><div class="n">1</div><p>No Gmail, marque os e-mails que deseja imprimir ou abra PDFs em abas do Chrome.</p></div>
+<div class="step"><div class="n">2</div><p>Clique no ícone da extensão e escolha o que incluir.</p></div>
+<div class="step"><div class="n">3</div><p>Os PDFs são unidos no seu navegador e a tela de impressão abre automaticamente.</p></div>
+</div>
+</section>
+<section class="card">
+<h2>Por que usar</h2>
+<div class="features">
+<div class="feature"><span class="ic">📎</span><div><strong>Anexos em lote</strong><p>Encontra os PDFs de vários e-mails de uma só vez.</p></div></div>
+<div class="feature"><span class="ic">🗂️</span><div><strong>Também lê abas</strong><p>Inclui PDFs abertos em outras abas do Chrome.</p></div></div>
+<div class="feature"><span class="ic">⚡</span><div><strong>Impressão rápida</strong><p>Um único documento, pronto para imprimir.</p></div></div>
+<div class="feature"><span class="ic">🔒</span><div><strong>Privacidade primeiro</strong><p>Acesso somente leitura, só ao que você seleciona.</p></div></div>
+</div>
+</section>
+<section class="card">
+<h2>Privacidade e segurança</h2>
+<p>A extensão usa acesso somente leitura ao Gmail, exclusivamente para os e-mails que você selecionar. O processamento acontece localmente no seu navegador: nenhum dado é armazenado, enviado a servidores externos ou compartilhado com terceiros.</p>
+<a class="btn" href="privacidade.html">Ler a Política de Privacidade</a>
+</section>
+<section class="card">
+<h2>Contato</h2>
+<p>Dúvidas ou sugestões? Escreva para <a href="mailto:paulosergiox96@gmail.com">paulosergiox96@gmail.com</a>.</p>
+</section>
+</main>
+<footer>© 2026 Imprimir Gmail e Abas · <a href="privacidade.html">Política de Privacidade</a></footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="T873T_UwbkwbiO6mOk4ymQmgSrhnWB7fewpXSyAYkCM" />
+<title>Imprimir Gmail e Abas — Extensão para Google Chrome</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
 h1 { font-size: 1.8em; }
